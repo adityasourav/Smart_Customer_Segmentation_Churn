@@ -1,10 +1,6 @@
 # Smart Customer Segmentation & Churn Prediction System
 
 <p align="center">
-<img src="./images/workflow.png" width="950">
-</p>
-
-<p align="center">
 Machine Learning based customer churn analysis and prediction system for customer retention and business insights.
 </p>
 
@@ -12,9 +8,9 @@ Machine Learning based customer churn analysis and prediction system for custome
 
 # Project Overview
 
-This project focuses on analyzing customer behavior and predicting customer churn using Machine Learning techniques. The system performs customer segmentation, identifies customer patterns, visualizes business insights, and predicts whether a customer is likely to leave the service.
+This project focuses on analyzing customer behavior and predicting customer churn using Machine Learning techniques. The system performs customer segmentation, identifies customer patterns, visualizes important insights, and predicts whether a customer is likely to leave the service.
 
-The main objective is to help businesses improve customer retention and make data-driven decisions.
+The main objective is to help businesses improve customer retention strategies and make data-driven decisions.
 
 ---
 
@@ -28,6 +24,8 @@ The main objective is to help businesses improve customer retention and make dat
 ✅ Data Visualization  
 ✅ Model Building  
 ✅ Model Evaluation  
+✅ Classification Report Generation  
+✅ Confusion Matrix Analysis  
 
 ---
 
@@ -35,26 +33,37 @@ The main objective is to help businesses improve customer retention and make dat
 
 **Dataset:** Telco Customer Churn Dataset
 
-Source:  
+Dataset Source:
+
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+### Dataset Description
+
+The dataset contains customer information from a telecommunications company and is used to predict customer churn behavior.
 
 Dataset includes:
 
 - Customer demographics
-- Account details
+- Customer account details
 - Monthly charges
 - Total charges
-- Services subscribed
-- Contract details
-- Churn status
+- Service subscriptions
+- Contract information
+- Customer churn status
 
-Target Variable:
+### Target Variable
 
 ```text
 Churn
 
-Yes → Customer Leaves
+Yes → Customer Leaves Service
 No → Customer Stays
+```
+
+Total Records:
+
+```text
+7043 Customer Records
 ```
 
 ---
@@ -72,43 +81,65 @@ No → Customer Stays
 
 ---
 
+# Tools Used
+
+| Tool | Purpose |
+|--------|----------|
+| PyCharm | Development Environment |
+| Jupyter Notebook | EDA and Model Building |
+| Git | Version Control |
+| GitHub | Repository Hosting |
+| Streamlit | Web Application |
+
+---
+
 # Project Workflow
 
 ### Step 1: Data Collection
-- Loaded Telco Customer Churn Dataset
+
+- Loaded Telco Customer Churn dataset
+- Imported required libraries
 
 ### Step 2: Data Cleaning
-- Missing value handling
-- Duplicate checking
-- Data consistency checking
+
+- Handled missing values
+- Checked duplicate values
+- Removed inconsistencies
 
 ### Step 3: Exploratory Data Analysis
-- Churn distribution analysis
-- Correlation analysis
+
+- Customer churn distribution analysis
 - Monthly charges analysis
+- Correlation analysis
+- Data visualization
 
 ### Step 4: Data Preprocessing
-- Encoding
-- Scaling
-- Train-test split
+
+- Feature Encoding
+- Feature Scaling
+- Train-Test Split
 
 ### Step 5: Model Building
-- Training machine learning model
+
+- Trained machine learning classification model
+- Learned customer patterns
 
 ### Step 6: Model Evaluation
-- Confusion matrix
-- Classification report
-- Performance metrics
 
-### Step 7: Prediction
+- Generated confusion matrix
+- Generated classification report
+- Calculated model metrics
+
+### Step 7: Prediction System
+
 - Predict whether customer churns or stays
 
 ---
 
-## Workflow Diagram
+# Workflow Diagram
 
 <p align="center">
-   <img src="images/workflow.png" alt="Workflow Diagram" width="700">
+<img src="./images/workflow.png" width="900">
 </p>
 
 ---
@@ -121,6 +152,8 @@ No → Customer Stays
 <img src="./images/churn_distribution.png" width="700">
 </p>
 
+Shows distribution of customer churn.
+
 ---
 
 ## Correlation Heatmap
@@ -128,6 +161,8 @@ No → Customer Stays
 <p align="center">
 <img src="./images/correlation_heatmap.png" width="700">
 </p>
+
+Displays relationships among multiple features.
 
 ---
 
@@ -137,6 +172,8 @@ No → Customer Stays
 <img src="./images/monthly_charges.png" width="700">
 </p>
 
+Shows effect of monthly charges.
+
 ---
 
 ## Scatter Plot Analysis
@@ -144,6 +181,8 @@ No → Customer Stays
 <p align="center">
 <img src="./images/scatter_plot.png" width="700">
 </p>
+
+Displays feature relationships.
 
 ---
 
@@ -153,6 +192,8 @@ No → Customer Stays
 <img src="./images/cus_churn.png" width="700">
 </p>
 
+Shows churn-related customer patterns.
+
 ---
 
 ## Customer Retention Analysis
@@ -160,6 +201,8 @@ No → Customer Stays
 <p align="center">
 <img src="./images/cus_stay.png" width="700">
 </p>
+
+Shows customer retention patterns.
 
 ---
 
@@ -169,6 +212,8 @@ No → Customer Stays
 <img src="./images/confusion_matrix.png" width="700">
 </p>
 
+Illustrates model prediction performance.
+
 ---
 
 ## Classification Report
@@ -176,6 +221,8 @@ No → Customer Stays
 <p align="center">
 <img src="./images/classification_report.png" width="700">
 </p>
+
+Displays precision, recall, and F1 score.
 
 ---
 
@@ -193,15 +240,9 @@ Performance metrics:
 # Future Improvements
 
 - Hyperparameter tuning
+- Improve prediction accuracy
+- Real-time dashboard integration
 - Cloud deployment
-- Real-time analytics dashboard
-- Multiple ML models
+- Add multiple machine learning models
 
 ---
-
-# Author
-
-**Aditya Saurav**
-
-Electronics & Communication Engineering (ECE)  
-Machine Learning | Data Science | Competitive Programming
