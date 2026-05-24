@@ -16,16 +16,16 @@ The main objective is to help businesses improve customer retention strategies a
 
 # Features
 
-✅ Customer Data Analysis  
-✅ Exploratory Data Analysis (EDA)  
-✅ Data Cleaning and Preprocessing  
-✅ Customer Segmentation  
-✅ Customer Churn Prediction  
-✅ Data Visualization  
-✅ Model Building  
-✅ Model Evaluation  
-✅ Classification Report Generation  
-✅ Confusion Matrix Analysis  
+Customer Data Analysis  
+Exploratory Data Analysis (EDA)  
+Data Cleaning and Preprocessing  
+Customer Segmentation  
+Customer Churn Prediction  
+Data Visualization  
+Model Building  
+Model Evaluation  
+Classification Report Generation  
+Confusion Matrix Analysis  
 
 ---
 
