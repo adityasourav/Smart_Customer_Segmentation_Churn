@@ -108,7 +108,7 @@ No → Customer Stays
 ## Workflow Diagram
 
 <p align="center">
-<img src="./images/workflow.png" width="900">
+   <img src="images/workflow.png" alt="Workflow Diagram" width="700">
 </p>
 
 ---
