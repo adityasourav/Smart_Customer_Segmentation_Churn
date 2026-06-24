@@ -136,6 +136,99 @@ Total Records:
 
 ---
 
+# Power BI Dashboard
+
+To complement the machine learning-based churn prediction system, an interactive Power BI dashboard was developed for business intelligence and customer retention analysis.
+
+The dashboard enables stakeholders to:
+
+* Monitor customer churn metrics
+* Analyze churn distribution across customer segments
+* Explore contract-based churn behavior
+* Evaluate internet service impact on churn
+* Analyze customer tenure patterns
+* Compare churn across payment methods
+* Apply interactive filters for deeper business insights
+
+---
+
+# Dashboard Features
+
+### KPI Cards
+
+* Total Customers
+* Churned Customers
+* Churn Rate (%)
+
+### Interactive Filters
+
+* Gender
+* Contract Type
+* Internet Service
+* Senior Citizen
+
+### Business Insights Visualizations
+
+* Customer Churn Distribution
+* Contract Type vs Churn Analysis
+* Internet Service vs Churn Analysis
+* Customer Tenure Distribution
+* Payment Method vs Churn Analysis
+
+---
+
+# Power BI Dashboard Preview
+
+## Dashboard Overview
+
+<p align="center">
+<img src="./screenshots/dashboard_overview.png" width="900">
+</p>
+
+## Contract Type Analysis
+
+<p align="center">
+<img src="./screenshots/contract_analysis.png" width="900">
+</p>
+
+## Internet Service Analysis
+
+<p align="center">
+<img src="./screenshots/internet_service_analysis.png" width="900">
+</p>
+
+## Customer Tenure Analysis
+
+<p align="center">
+<img src="./screenshots/tenure_analysis.png" width="900">
+</p>
+
+## Payment Method Analysis
+
+<p align="center">
+<img src="./screenshots/payment_method_analysis.png" width="900">
+</p>
+
+---
+
+# Key Business Insights
+
+* Overall customer churn rate is approximately 26.58%.
+* Month-to-Month contract customers exhibit the highest churn behavior.
+* Fiber Optic users show comparatively higher churn rates.
+* Customers with longer tenure are more likely to remain subscribed.
+* Payment methods influence customer retention patterns.
+* Customer segmentation helps identify high-risk churn groups.
+
+---
+
+# Project Impact
+
+This project combines Machine Learning and Business Intelligence techniques to provide both predictive analytics and actionable business insights.
+
+The integration of Streamlit, Machine Learning models, and Power BI dashboards creates a complete customer churn analysis solution suitable for Data Science, Data Analyst, and Business Analyst use cases.
+
+
 # Workflow Diagram
 
 <p align="center">
