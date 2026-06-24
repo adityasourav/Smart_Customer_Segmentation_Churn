@@ -182,31 +182,31 @@ The dashboard enables stakeholders to:
 ## Dashboard Overview
 
 <p align="center">
-<img src="./screenshots/dashboard_overview.png" width="900">
+<img src="./images/dashboard_overview.png" width="900">
 </p>
 
 ## Contract Type Analysis
 
 <p align="center">
-<img src="./screenshots/contract_analysis.png" width="900">
+<img src="./images/contract_analysis.png" width="900">
 </p>
 
 ## Internet Service Analysis
 
 <p align="center">
-<img src="./screenshots/internet_service_analysis.png" width="900">
+<img src="./images/internet_service_analysis.png" width="900">
 </p>
 
 ## Customer Tenure Analysis
 
 <p align="center">
-<img src="./screenshots/tenure_analysis.png" width="900">
+<img src="./images/tenure_analysis.png" width="900">
 </p>
 
 ## Payment Method Analysis
 
 <p align="center">
-<img src="./screenshots/payment_method_analysis.png" width="900">
+<img src="./images/payment_method_analysis.png" width="900">
 </p>
 
 ---
