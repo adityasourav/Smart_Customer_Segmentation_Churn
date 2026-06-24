@@ -1,4 +1,4 @@
-# Smart Customer Segmentation & Churn Prediction System
+# Smart Customer Segmentation, Churn Prediction & Analytics
 
 <p align="center">
 Machine Learning based customer churn analysis and prediction system for customer retention and business insights.
