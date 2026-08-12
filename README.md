@@ -14,6 +14,12 @@ The main objective is to help businesses improve customer retention strategies a
 
 ---
 
+# Live Deno
+
+https://smart-customer-segmentation-churn.onrender.com/
+
+---
+
 # Features
 
 Customer Data Analysis  
