@@ -17,6 +17,7 @@ The main objective is to help businesses improve customer retention strategies a
 # Live Demo
 
 https://smartcustomersegmentationchurn.streamlit.app/
+
 ---
 
 # Features
